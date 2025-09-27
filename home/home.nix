@@ -1,5 +1,9 @@
 { config, pkgs, ... }:
 {
+  imports = [
+    ./sway/default.nix
+  ];
+  
   home.username = "jm";
   home.homeDirectory = "/home/jm";
    # Packages that should be installed to the user profile.
@@ -11,7 +15,7 @@
     pcmanfm # gui file manager
 
     # git utils
-    gh
+    gh #github cli
     lazygit
 
     # archives
