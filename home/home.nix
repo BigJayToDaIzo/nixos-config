@@ -8,6 +8,11 @@
     # feel free to add your own or remove some of them
 
     nnn # terminal file manager
+    pcmanfm # gui file manager
+
+    # git utils
+    gh
+    lazygit
 
     # archives
     zip
