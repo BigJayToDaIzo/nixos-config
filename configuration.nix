@@ -23,7 +23,7 @@
   };
 
   # Optimize storag3e
-  nix.settings.auto-optimize-store = true;
+  nix.settings.auto-optimise-store = true;
   networking.hostName = "dn"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
