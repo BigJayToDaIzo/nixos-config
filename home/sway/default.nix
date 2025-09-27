@@ -1,15 +1,9 @@
-{ config, pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
-    grim
-    slurp
-    wl-clipboard
-    mako
-  ];
-
-  services.gnome.gnome-keyring.enable = true;
-
-  programs.sway = {
+{ config, pkgs, lib, ...}: {
+  wayland.windowManager.sway = {
     enable = true;
-    wrapperjfeatures.gtk = true;
+    config = rec {
+      modifier = "Mod4";
+      terminal = "alacritty";
+    };
   };
 }
