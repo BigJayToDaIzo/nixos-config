@@ -14,6 +14,9 @@
     nnn # terminal file manager
     pcmanfm # gui file manager
 
+    # terminal emulators
+    wezterm
+
     # git utils
     gh #github cli
     lazygit

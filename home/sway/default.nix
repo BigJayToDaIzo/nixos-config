@@ -3,7 +3,7 @@
     enable = true;
     config = rec {
       modifier = "Mod4";
-      terminal = "alacritty";
+      terminal = "wezterm";
     };
   };
 }
