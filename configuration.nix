@@ -117,6 +117,7 @@
     git
   	helix
   	wget
+  	blueman
   ];
 
   # Set environment variables

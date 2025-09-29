@@ -62,6 +62,9 @@
     ethtool
     pciutils # lspci
     usbutils # lsusb
+
+    # audio
+    pavucontrol
   ];
 
   # basic configuration of git, please change to your own
